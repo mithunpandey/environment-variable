@@ -34,6 +34,7 @@ jobs:
           echo "$Env:WORKSPACE_ENVIRONMENT_VARIABLE"
           echo "$Env:JOB_ENVIRONMENT_VARIABLE"
           echo "$Env:STEP_ENVIRONMENT_VARIABLE"
+          echo "$Env:HOME"
           echo "------------------------------------------------------"
           echo "Accessing environment variables using env context"
           echo "${{ env.WORKSPACE_ENVIRONMENT_VARIABLE }}"
